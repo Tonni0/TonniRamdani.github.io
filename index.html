@@ -1,0 +1,232 @@
+<html>
+    <head>
+        <title>
+            Tugas 13
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="w3.css">
+        <style>
+            img {
+                width: 500px;
+            }
+            .profile {
+                background-color: white;
+                color: crimson;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="images/banner.png"style="width: 100%;">
+        <div class="w3-bar w3-red">
+            <div class="w3-dropdown-hover w3-red">
+                <button class="w3-button">Playstation</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-red">
+                        <button class="w3-bar-item w3-button" onclick="openMenu('Playstation_1')">Playstation_1</button>
+                        <button class="w3-bar-item w3-button" onclick="openMenu('Playstation_2')">Playstation_2</button>
+                        <button class="w3-bar-item w3-button" onclick="openMenu('Playstation_3')">Playstation_3</button>
+                        <button class="w3-bar-item w3-button" onclick="openMenu('Playstation_4')">Playstation_4</button>
+                        <button class="w3-bar-item w3-button" onclick="openMenu('Playstation_5')">Playstation_5</button>
+                    </div>
+            </div>
+            <button class="w3-bar-item w3-button" onclick="openMenu('XBOX')">Xbox</button>
+            <button class="w3-bar-item w3-button" onclick="openMenu('NINTENDO')">Nintendo</button>
+            <button class="w3-bar-item w3-button profile" onclick="openMenu('PROFILE')"><b>Profile</b></button>
+        </div>
+        <br>
+        <div class="w3-container menu w3-animate-fading w3-center" style="display: block;">
+            <h1 class="w3-red">
+                Choose Your Console
+            </h1>
+            <img src="images/Steam Community.gif" alt="">
+        </div>
+        <div id="Playstation_1" class="w3-container menu w3-animate-top" style="display: none;">
+            <div class="w3-card-4 w3-red">
+                <header class="w3-container">
+                    <center>
+                        <h1 class="w3-animate-right">Playstation 1</h1>
+                    </center>
+                </header>
+                <br>
+            </div>
+            <div class="w3-container">
+                <h1>
+                    Playstation 1
+                </h1>
+                <img src="https://cdn.idntimes.com/content-images/post/20200103/patrick-kesterson-ps-1a-8692ee061b51f1bcea730d203d13a491.jpg" alt="">
+                <p>
+                    Konsol dari Sony ini memperkenalkan game bergaya 3D yang sangat fenomenal. Cek saja Metal Gear Solid dan Final Fantasy VII. Pada 1995, konsol PlayStation-lah yang mendorong industri gaming begitu jauh.
+                </p>
+            </div>
+        </div>
+        <div id="Playstation_2" class="w3-container menu w3-animate-right" style="display: none;">
+            <div class="w3-card-4 w3-red">
+                <header class="w3-container">
+                    <center>
+                        <h1 class="w3-animate-left">Playstation 2</h1>
+                    </center>
+                </header>
+                <br>
+            </div>
+            <div class="w3-container">
+                <h1>
+                    Playstation 2
+                </h1>
+                <img src="https://cdn.idntimes.com/content-images/post/20200103/57fbbc908109ee58008b49be-ce4b177d4dcbed6561660e6c7b39defa.jpg" alt="">
+                <p style="text-align: justify;">
+                    Awal tahun 2000, pengguna PS 1 mulai beralih ke generasi selanjutnya dari konsol game ini. Pada saat itu, dunia game kembali dihebohkan dengan kehadiran sosok konsol game full black bernama PlayStation 2 (PS2). 
+
+                    Pengembangan konsol ini diperkenalkan pada April 1999 dan diluncurkan perdana pada 4 Maret 2000 di Jepang.  Sedangkan untuk di Amerika Serikat, PS 2 diluncurkan pada 26 Oktober 2000.
+                </p>
+            </div>
+        </div>
+        <div id="Playstation_3" class="w3-container menu w3-animate-zoom" style="display: none;">
+            <div class="w3-card-4 w3-red">
+                <header class="w3-container">
+                    <center>
+                        <h1 class="w3-animate-bottom">Playstation 3</h1>
+                    </center>
+                </header>
+                <br>
+            </div>
+            <div class="w3-container">
+                <h1>
+                    Playstation 3
+                </h1>
+                <img src="https://api.duniagames.co.id/api/content/upload/file/3060502831586422751.JPG" alt="">
+                <p style="text-align: justify;">
+                    Tidak berhenti hanya pada PS 2, Sony kembali memberikan kejutan di dunia game dengan menciptakan generasi lanjutan bertajuk PlayStation 3. Pada 2006, Sony meluncurkan PS 3 dan mendapatkan antusiasme tinggi dari para gamer seluruh dunia. Namun, PS 3 memiliki para pesaing kuat pada zaman peluncurannya. Bahkan, hingga kini kompetitor PlayStation masih gencar bersaing dengan Sony. Kompetitor PS 3 pada kala itu seperti Xbox 360 dari Microsoft, dan Wii dari Nintendo. PlayStation 3 pertama kali dirilis di Jepang pada 11 November 2006, dan 17 November 2006 di Amerika Utara, Hongkong dan Taiwan, serta 7 Maret 2007 di kawasan Eropa.
+                </p>
+            </div>
+        </div>
+        <div id="Playstation_4" class="w3-container menu w3-animate-left" style="display: none;">
+            <div class="w3-card-4 w3-red">
+                <header class="w3-container">
+                    <center>
+                        <h1 class="w3-animate-opacity">Playstation 4</h1>
+                    </center>
+                </header>
+                <br>
+            </div>
+            <div class="w3-container">
+                <h1>
+                    Playstation 4
+                </h1>
+                <img src="https://api.duniagames.co.id/api/content/upload/file/18436565601586422779.JPG" alt="">
+                <p style="text-align: justify;">
+                    Pada saat gamer sedang puas-puasnya bermain PS 3, Sony kembali menghadirkan PlayStation generasi ke empat. Bahkan, developer gaming PC pun sempat kewalahan dengan hadirnya PS 4 di pasaran. 
+
+                    PS 4 dirilis pertama kali di Amerika pada 15 November 2013, dan di Eropa pada 9 Februari 2014. Lebih dulu dirilis dari pada Jepang pada 22 Februari 2014. Di pasaran, PS 4 bersaing hebat dengan para kompetitiornya seperti Xbox One dan Wii U.
+                </p>
+            </div>
+        </div>
+        <div id="Playstation_5" class="w3-container menu w3-animate-bottom" style="display: none;">
+            <div class="w3-card-4 w3-red">
+                <header class="w3-container">
+                    <center>
+                        <h1>Playstation 5</h1>
+                    </center>
+                </header>
+                <br>
+            </div>
+            <div class="w3-container">
+                <h1>
+                    Playstation 5
+                </h1>
+                <img src="https://api.duniagames.co.id/api/content/upload/file/18393771431586422805.JPG" alt="">
+                <p style="text-align: justify;">
+                    Sony berencana merilis generasi terbaru, yaitu PlayStation 5. Seri terbaru yang akan hadir jauh lebih canggih dari para pendahulunya. PS 5 direncakan akan hadir pada November 2020.
+
+                    Untuk dapur pacu dari mesin game ini, hardware PS 5 akan jauh lebih kuat dari pendahulunya. PS 5 akan dibekali dengan CPU Ryzen dan GPU Navi dari AMD dengan media penyimpanan berupa SSD.
+                </p>
+            </div>
+        </div>
+        <div id="XBOX" class="w3-container menu w3-animate-bottom" style="display: none;">
+            <div class="w3-card-4 w3-red">
+                <header class="w3-container">
+                    <center>
+                        <h1>Xbox</h1>
+                    </center>
+                </header>
+                <br>
+            </div>
+            <div class="w3-container">
+                <h1>
+                    Xbox
+                </h1>
+                <img src="https://cdn.idntimes.com/content-images/post/20200103/originalxbox0-6819632a13569d20561922aec9892cde.jpg" alt="">
+                <p style="text-align: justify;">
+                    Xbox original menjadi langkah awal Microsoft masuk ke ranah gaming. Selain itu berkat konsol ini pula, tepatnya karena fitur Xbox Live, game online via konsol menjadi populer.
+                </p>
+            </div>
+        </div>
+        <div id="NINTENDO" class="w3-container menu w3-animate-bottom" style="display: none;">
+            <div class="w3-card-4 w3-red">
+                <header class="w3-container">
+                    <center>
+                        <h1>Nintendo</h1>
+                    </center>
+                </header>
+                <br>
+            </div>
+            <div class="w3-container">
+                <h1>
+                    Nintendo 64
+                </h1>
+                <img src="https://cdn.idntimes.com/content-images/post/20200103/nintendo-64-n64-1189457-640x320-0959933b1beaafcb5912ebedf665d497.jpeg" alt="">
+                <p style="text-align: justify;">
+                    Sebagai saingan dari PS1, N64 memberikan pengalaman hebat dalam merasakan permainan 3D. Judul franchise Zelda yang terbaik saja muncul di konsol ini, yaitu The Legend of Zelda: Ocarina of Time.
+                </p>
+            </div>
+        </div>
+        <div id="PROFILE" class="w3-container menu w3-animate-bottom" style="display: none;">
+            <div class="w3-card-4 w3-red">
+                <header class="w3-container">
+                    <center>
+                        <h1>Profile</h1>
+                    </center>
+                </header>
+                <br>
+            </div>
+            <div class="w3-container">
+                <br>
+                <center>
+                <table>
+                    <tr>
+                        <td>
+                            Nama
+                        </td>
+                        <td>:</td>
+                        <td>
+                            Tonni Ramdani Mubaroq
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nim</td>
+                        <td>:</td>
+                        <td>
+                            10122051
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kelas</td>
+                        <td>:</td>
+                        <td>IF-2</td>
+                    </tr>
+                </table>
+            </center>
+            </div>
+        </div>
+        <script>
+            function openMenu(namaMenu){
+                var i;
+                var x = document.getElementsByClassName("menu");
+                for (i = 0; i < x.length; i++){
+                    x[i].style.display = "none";
+                }
+                document.getElementById(namaMenu).style.display = "block";
+            }
+        </script>
+
+
+    </body>
+</html>
